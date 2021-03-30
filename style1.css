@@ -1,0 +1,20 @@
+
+
+
+th,td{
+    border-collapse: inherit;
+    border: 3px solid black ;
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px solid red;
+}
+
+.colonne1{
+background-color : teal ;
+}
+
+.autre_col{
+background-color: #BF1F87 ;
+}
