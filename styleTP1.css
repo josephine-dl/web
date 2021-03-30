@@ -28,10 +28,13 @@ table{
 
 .colonne2{
     background-color : #BF1F86 ;
+    text-align: left;
 }
 .colonne3{
     background-color: white ;
+    text-align: right;
 }
+
 
 a:hover
 {color : black ; }
