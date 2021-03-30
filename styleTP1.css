@@ -35,3 +35,9 @@ table{
     /*margin-right: 200px;*/
     background-color: white ;
 }
+
+a:hover
+{color : black ; }
+
+a:visited
+{color : black ;}
