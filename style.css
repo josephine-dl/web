@@ -21,3 +21,8 @@ h1{
 		font-style: italic;
 		color:#BF1F87;
 	}
+	#title {
+		color: #42B7E7;
+		font-size: 50px;
+		text-align: center;
+	}
