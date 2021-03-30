@@ -9,7 +9,7 @@
 
 #color2
 {
-    background-color: #BF1F87;
+    background-color: grey;
 }
 
 li{
@@ -38,9 +38,9 @@ table{
 }
 
 .colonne2{
-    background-color : #BF1F86 ;
+    background-color : grey ;
     text-align: left;
-}
+} 
 .colonne3{
     background-color: white ;
     text-align: right;
