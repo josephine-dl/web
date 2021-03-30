@@ -12,6 +12,15 @@
     background-color: #BF1F87;
 }
 
+li{
+    display : block ;
+    float: left;
+    /*width: 300px; */
+    /*height: 200px;*/
+    padding: 3px ;
+    /*display: inline-block;*/
+}
+
 th,td{
     border-collapse: inherit;
     border: 3px solid black ;
