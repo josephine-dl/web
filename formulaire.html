@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- commentaire -->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <title>Projet_Formulaire</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="content-box">
+            <img src="costume_de_dandy.png" alt="image_of_a_sushi_disguise_as_a_dandy">
+            <nav id="nav">
+
+            </nav>
+        </header>
+
+        <main>
+            <form class="container formulaire" id ="formulaire" action="index.html" method="post"> <!-- class="border-box" -->
+                <div>
+                    <label for="name"></label>
+                    <input class="rectangle items text" type="text" id ="name" name="user_name"  placeholder="Prénom " required minlength="1">
+
+                    <label for="surname"></label>
+                    <input class="rectangle items text" type="text" id = "surname" name="user_surname" placeholder="Nom"  required minlength="1">
+
+                    <label for="email"></label>
+                    <input class="rectangle items " type="email" id="email" required placeholder="adresse email :" >
+
+                    <select class="Occupation_items" id = "role" >
+                        <option value="enseignant">Enseignant</option>
+                        <option value="étudiant">Etudiant</option>
+                    </select>
+                </div>
+                <div>
+                    <button  type="button" name="button1">ajouter</button>
+                    <button  type="button" name="button2">tout supprimer</button>
+                </div>
+
+            </form>
+
+            <h3>Inscription </h3>
+            <table id ="table_inscription">
+                <thead>
+                    <tr>
+                        <th>Prénom</th>
+                        <th>Nom</th>
+                        <th>Adresse mail</th>
+                        <th>Enseignant / Etudiant</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </main>
+
+        <script src="formulaire.js"></script>
+    </body>
+</html>
