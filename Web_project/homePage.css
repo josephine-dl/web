@@ -1,10 +1,4 @@
-.inscription, .presentation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#0065DA;
-}
+
 
 
 .page1 {
@@ -99,6 +93,15 @@ p{
 }
 
 @media only screen and (min-width: 840px) and (max-width: 1600px) {
+    #Logo{
+        display:none;
+    }
+
+    .nav{
+        display:flex;
+        align-items: center;
+    }
+
     h2 {
         font-size: 35px;
     }
@@ -121,6 +124,10 @@ p{
 }
 
 @media only screen and (max-width: 840px), screen and (max-height: 600px){
+    #Logo{
+        display:none;
+    }
+
     #content1{
         flex-direction: column;
         align-items:center;

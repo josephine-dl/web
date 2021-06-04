@@ -47,6 +47,16 @@ header h1{
     margin-left: 20px;
 }
 
+.nav{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
 #headerGroup li {
     list-style:none;
     font-size: 30px;
