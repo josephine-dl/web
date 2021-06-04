@@ -1,0 +1,28 @@
+#nosEvent{
+    background-color: #4FBFFF;
+    display:flex;
+    flex-direction: column;
+    padding-top: 5%  ;
+    padding-bottom: 3% ;
+}
+
+#nosEvent h1{
+    color:#FFFFFF;
+    align-items: center;
+    text-align:center;
+
+}
+
+#pasContent{
+    font-size:20px;
+    color:#FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+iframe{
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    width:98%;
+    frameborder:0 ;
+}

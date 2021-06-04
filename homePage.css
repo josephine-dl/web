@@ -1,0 +1,196 @@
+.inscription, .presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0065DA;
+}
+
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B91E3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+#content1{
+    margin-top: 9vh;
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main1, #main2{
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.trucChiant{
+    text-align: center;
+    width: 30vw;
+}
+
+.trucChiant a:hover{
+    color : mediumpurple;
+    font-size: 40px;
+}
+
+.page2{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4FBFFF;
+}
+
+#content2{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#textP2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#textP2 h2{
+    width: 40vw;
+    text-align: end;
+    font-size: 50px;
+}
+#textP2 p{
+    width: 35vw;
+    font-size: 35px;
+    text-align: end;
+}
+
+#scrolling1, #scrolling2{
+    border-bottom:150px;
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1600px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    p,#textP2 p{
+        font-size:20px;
+    }
+
+    .trucChiant a:hover{
+        font-size: 35px;
+    }
+
+    #textP2 h2{
+        font-size:30px;
+    }
+
+    #content1{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 840px), screen and (max-height: 600px){
+    #content1{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #main1, #main2{
+        justify-content: space-evenly;
+    }
+
+    .trucChiant h2{
+        width:fit-content;
+        border-bottom:3px solid purple;
+        font-size: 30px;
+    }
+
+    .trucChiant h2:hover{
+        border-bottom:3px solid purple;
+    }
+
+    #content1 p{
+        display: none;
+    }
+
+    .trucChiant{
+        width: 95vw;
+    }
+
+    #textP2{
+        width: 100vw;
+        align-self: center;
+        align-items: center;
+    }
+
+    #textP2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #textP2 p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    #unicef2,#unicef1{
+        display:none;
+    }
+
+    #main1, #main2{
+        width:100vw;
+    }
+
+    .trucChiant{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #scrolling1,#scrolling2{
+        display:none;
+    }
+
+    #textP2 h2{
+        width: 55vw;
+    }
+
+    #textP2 p{
+        width: 80vw;
+        height: auto;
+    }
+
+
+}
