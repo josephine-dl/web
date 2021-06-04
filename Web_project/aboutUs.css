@@ -1,0 +1,25 @@
+.us{
+    width:55vw;
+}
+
+#aboutUs{
+    flex-direction: column;
+    height:200vh;
+}
+
+.us h2{
+    font-size: 35px;
+}
+
+.us p{
+    font-size:20px;
+}
+
+.pic{
+    border-radius: 20px 20px 20px 20px;
+    flex-wrap:wrap-reverse;
+}
+
+main{
+    background-color: #4FBFFF;
+}
