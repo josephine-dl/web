@@ -1,0 +1,193 @@
+body{
+    background-color:#1B91E3;
+    color:#FFFFFF;
+}
+
+label{
+    color:#FFFFFF;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#mainInscription{
+    height: 120vh;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentWrapper button {
+    width: 20%;
+    height: 25px;
+    /*background-color: #4FBFFF;*/
+    border-radius: 18px;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.contentWrapper .whyInscription {
+    font-size: 20px;
+    font-weight: 50;
+}
+
+.contentWrapper h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#FFFFFF;
+}
+
+.contentWrapper p {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.contentWrapper p span {
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContent{
+    align-items: center;
+}
+
+form input[type="text"]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#tableInscription {
+    display: table;
+    flex-direction: column;
+    align-items: center;
+    max-height: 25vh;
+    max-width: 95vw;
+}
+#table_moutons table {
+    background-color: #1B91E3;
+    border : 2px solid #000000;
+    border-collapse: collapse;
+    overflow-y: auto;
+    word-break: break-word;
+}
+
+#tableInscription table {
+    background-color: #1B91E3;
+    border : 2px solid #000000;
+    border-collapse: collapse;
+    overflow-y: auto;
+    word-break: break-word;
+}
+#table_moutons table tr {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#tableInscription table tr {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#table_moutons table th {
+    color: #000000;
+    font-size: 25px;
+    padding: 5px;
+    border-bottom: 2px solid #32428B;
+    min-width: 30vw;
+    background-color: #1B91E3;
+
+}
+
+#tableInscription table th {
+    color: #000000;
+    font-size: 25px;
+    padding: 5px;
+    border-bottom: 2px solid #32428B;
+    min-width: 30vw;
+    background-color: #1B91E3;
+
+}
+#table_moutons table td {
+    color:#000000;
+    font-size: 25px;
+    padding: 5px;
+    max-width: 350px;
+    overflow-x: auto;
+    border: 2px solid #000000;
+    white-space: nowrap;
+
+}
+#tableInscription table td {
+    color:#000000;
+    font-size: 25px;
+    padding: 5px;
+    max-width: 350px;
+    overflow-x: auto;
+    border: 2px solid #000000;
+    white-space: nowrap;
+
+}
+
+#contentName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#resultForm {
+    height: 30vh;
+    margin-top: 15px;
+}
+
+#formulaire1 label{
+    align-items:center;
+}
+
+
+#questionnaire{
+    margin-bottom: 10px;
+}
+
+#questionnaire legend{
+    color:#FFFFFF;
+}
+
+#formulaire1, #formulaire2, #formulaire3, #formulaire4, #formulaire5 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#formulaire1 legend, #formulaire2 legend, #formulaire3 legend, #formulaire4 legend, #formulaire5 legend{
+    margin-bottom:10px;
+}
+
+#title{
+    margin-bottom: auto;
+}
+
+#resultat{
+    text-align: center;
+    color: #32428B;
+}
+

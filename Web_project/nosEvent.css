@@ -1,0 +1,25 @@
+#nosEvent{
+    background-color: #4FBFFF;
+    display:flex;
+    flex-direction: column;
+}
+
+#nosEvent h1{
+    color:#FFFFFF;
+    align-items: center;
+    text-align:center;
+
+}
+
+#pasContent{
+    font-size:20px;
+    color:#FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+iframe{
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    width:100%;
+}
