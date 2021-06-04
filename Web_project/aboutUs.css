@@ -1,25 +1,42 @@
 .us{
-    width:55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #aboutUs{
-    flex-direction: column;
-    height:200vh;
-}
-
-.us h2{
-    font-size: 35px;
-}
-
-.us p{
-    font-size:20px;
-}
-
-.pic{
-    border-radius: 20px 20px 20px 20px;
-    flex-wrap:wrap-reverse;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:50px;
 }
 
 main{
     background-color: #4FBFFF;
 }
+
+.us h2, .us p {
+    text-align: center;
+}
+
+.us p {
+    height: 200px;
+    width: 30vw;
+    flex:1;
+}
+
+.us img{
+    height: 20vh;
+    border-radius: 20px;
+    flex:1;
+}
+
+header{
+    margin-bottom:30px;
+}
+
+
