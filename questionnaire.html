@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- commentaire -->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <title>Projet_Formulaire</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="content-box">
+        </header>
+
+        <main>
+
+            <p class="intro">
+                Test
+            </p>
+            <form class="container formulaire test" id ="formulaire1" action="index.html" method="post"> <!-- class="border-box" -->
+                <fieldset>
+                    <legend>L'accès à l'éducation est un des droits fondamentaux de l'enfant. En Afrique, et plus précisement dans la région du Burkina Faso, Niger et Mali, en 2019, 1,9 enfant était privé d'éducation ?</legend>
+                    <div>
+                      <input type="radio" id="res1_1" name="q1" value="vrai" checked>
+                      <label for="res1_1">Vrai</label>
+
+                      <input type="radio" id="res1_2" name="q1" value="faux">
+                      <label for="res1_2">Faux</label>
+
+                    </div>
+                </fieldset>
+            </form>
+
+            <form class="container formulaire test" id ="formulaire2" action="index.html" method="post">
+                <fieldset>
+                    <legend>Dans la région, combien d'écoles étaient fermées en juin 2019 ?</legend>
+                    <div>
+                      <input type="radio" id="res2_1" name="q2" value="1000" checked>
+                      <label for="res2_1">environ 1000</label>
+
+                      <input type="radio" id="res2_2"name="q2" value="5500">
+                      <label for="res2_2">environ 5500</label>
+
+                      <input type="radio" id="res2_3"name="q2" value="9300">
+                      <label for="res2_3">environ 9300</label>
+
+                      <input type="radio" id="res2_4"name="q2" value="15000">
+                      <label for="res2_4">environ 15000</label>
+                    </div>
+                </fieldset>
+            </form>
+
+
+            <form class="container formulaire test" id ="formulaire3" action="index.html" method="post">
+                <fieldset>
+                    <legend>Les attaques contre les écoles sont la principale cause de fermeture. </legend>
+                    <div>
+                      <input type="radio" id="res3_1" name="q3" value="vrai" checked>
+                      <label for="res3_1">Vrai</label>
+
+                      <input type="radio" id="res3_2"name="q3" value="faux">
+                      <label for="res3_1">Faux</label>
+                    </div>
+                </fieldset>
+            </form>
+
+            <form class="container formulaire test" id ="formulaire4" action="index.html" method="post">
+                <fieldset>
+                    <legend>Les enfants deviennent des enfants soldats le plus souvent de leur plein gré. </legend>
+                    <div>
+                      <input type="radio" id="res4_1" name="q4" value="vrai" checked>
+                      <label for="res4_1">Vrai</label>
+
+                      <input type="radio" id="res4_2"name="q4" value="faux">
+                      <label for="res4_2">Faux</label>
+                    </div>
+                </fieldset>
+            </form>
+
+            <form class="container formulaire test" id ="formulaire5" action="index.html" method="post">
+                <fieldset>
+                    <legend>Le droit à l'identité est un droit fondamental pour chaque enfant. Il existe encore de nombreux enfants sans identités appelés "enfants fantômes". Au Tchad, quel pourcentage d'enfants n'ont pas d'identité et sont invisibles ?</legend>
+                    <div>
+                      <input type="radio" id="res5_1" name="q5" value="10" checked>
+                      <label for="res5_1">5-10%</label>
+
+                      <input type="radio" id="res5_2"name="q5" value="30">
+                      <label for="res5_2">25-30%</label>
+
+                      <input type="radio" id="res5_3"name="q5" value="60">
+                      <label for="res5_3">50-60%</label>
+
+                      <input type="radio" id="res5_4"name="q5" value="90">
+                      <label for="res5_4">85-90%</label>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div>
+                <button  type="button" name="button1">Valider</button>
+            </div>
+            <pre id="resultat">
+            </pre>
+            <pre id =photo>
+            </pre>
+
+
+        </main>
+
+        <script src="questionnaire.js"></script>
+    </body>
+</html>

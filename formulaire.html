@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- commentaire -->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <title>Projet_Formulaire</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="content-box">
+        </header>
+
+        <main>
+
+            <button  type="button" name="button1"></button>
+
+
+            <form class="container formulaire unicef" id ="formulaire1" action="index.html" method="post"> <!-- class="border-box" -->
+                <div>
+                    <p class="intro">
+                        Test
+                    </p>
+
+                    <h3 class ="unicef">Fomulaire d'inscription </h3>
+
+                    <label for="name"></label>
+                    <input class="rectangle items text" type="text" id ="name" name="user_name"  placeholder="Prénom " required minlength="1">
+
+                    <label for="surname"></label>
+                    <input class="rectangle items text" type="text" id = "surname" name="user_surname" placeholder="Nom"  required minlength="1">
+
+                    <label for="email"></label>
+                    <input class="rectangle items " type="email" id="email" required placeholder="adresse email :" >
+
+                    <select class="Occupation_items" id = "role" >
+                        <option value="enseignant">Enseignant</option>
+                        <option value="étudiant">Etudiant</option>
+                    </select>
+                </div>
+                <div>
+                    <button  type="button" name="button2">ajouter</button>
+                    <button  type="button" name="button3">tout supprimer</button>
+                </div>
+
+            </form>
+
+            <table id ="table_inscription" class="unicef">
+                <thead>
+                    <tr>
+                        <th>Prénom</th>
+                        <th>Nom</th>
+                        <th>Adresse mail</th>
+                        <th>Enseignant / Etudiant</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+
+            <form class="container formulaire mouton" id ="formulaire2" action="index.html" method="post"> <!-- class="border-box" -->
+                <div>
+                    <h3 class="mouton">Comptez vos moutons de poussière !</h3>
+
+                    <label for="name"></label>
+                    <input class="rectangle items text" type="text" id ="nom_mouton" name="user_name"  placeholder="Nom du mouton " required minlength="1">
+
+                    <label for="taille"></label>
+                    <input class="rectangle items" type="number" id = "taille" name="taille" placeholder="Taille en cm" required min="0" >
+
+                    <label for="date_jour">Date d'apparition :</label>
+                    <input class="rectangle items" type="number" id="date_jour" name="date_jour" placeholder="jour" required min="1" max="31" >
+
+                    <label for="date_mois"></label>
+                    <input class="rectangle items" type="number" id = "date_mois" name="date_mois" placeholder="mois" required min="1" max="12" >
+
+                    <label for="date_annee"></label>
+                    <input class="rectangle items" type="number" id = "date_annee" name="date_annee" placeholder="année" required min="1900" max="2021" >
+
+                </div>
+                <div>
+                    <button  type="button" name="button4">ajouter</button>
+                    <button  type="button" name="button5">tout supprimer</button>
+                </div>
+
+            </form>
+
+            <table id ="table_moutons" class="mouton">
+                <thead>
+                    <tr>
+                        <th>Prénom</th>
+                        <th>Taille</th>
+                        <th>Date d'apparition</th>
+                        <th>Description</th>
+                        <th>Aide</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </main>
+
+        <script src="formulaire.js"></script>
+    </body>
+</html>
